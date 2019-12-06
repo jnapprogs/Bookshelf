@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bookshelf:
+    image: ${DOCKER_REGISTRY-}bookshelf
+    build:
+      context: .
+      dockerfile: BookShelf/Dockerfile
