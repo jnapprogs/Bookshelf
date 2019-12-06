@@ -1,15 +1,8 @@
 version: '3.4'
 
 services:
-  bookshelf:
-    image: ${DOCKER_REGISTRY-}bookshelf
-    build:
-      context: .
-      dockerfile: BookShelf/Dockerfile
-
-  bookmicroservice:
-    image: ${DOCKER_REGISTRY-}bookmicroservice
+  book_microservice:
+    image: ${DOCKER_REGISTRY-}book_microservice
     build:
       context: .
       dockerfile: BookMicroservice/Dockerfile
-
