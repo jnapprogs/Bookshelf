@@ -6,3 +6,10 @@ services:
     build:
       context: .
       dockerfile: BookShelf/Dockerfile
+
+  bookmicroservice:
+    image: ${DOCKER_REGISTRY-}bookmicroservice
+    build:
+      context: .
+      dockerfile: BookMicroservice/Dockerfile
+
