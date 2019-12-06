@@ -1,8 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShelf", "BookShelf\BookShelf.csproj", "{14FE08F7-EE8F-40B4-8BD7-BC4521B33D93}"
-EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{713404E1-21F7-460D-BFC8-E2810802EA2C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMicroservice", "BookMicroservice\BookMicroservice.csproj", "{BC879E16-8342-40B0-A7DD-96A29E9B48A6}"
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{14FE08F7-EE8F-40B4-8BD7-BC4521B33D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14FE08F7-EE8F-40B4-8BD7-BC4521B33D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14FE08F7-EE8F-40B4-8BD7-BC4521B33D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14FE08F7-EE8F-40B4-8BD7-BC4521B33D93}.Release|Any CPU.Build.0 = Release|Any CPU
 		{713404E1-21F7-460D-BFC8-E2810802EA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{713404E1-21F7-460D-BFC8-E2810802EA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713404E1-21F7-460D-BFC8-E2810802EA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
